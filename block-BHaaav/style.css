@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.head {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    color: white;
+}
+nav {
+    text-align: center;
+}
+.top {
+    margin: 0px 10px;
+    display: inline-block;
+    color: white;
+}
+.top-quarter {
+    background-color: hsl(231deg 17% 22%);
+}
+h1 {
+    color: white;
+    font-size: 48px;
+    padding-top: 150px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+hr {
+    color: white;
+    margin: 0px 100px;
+}
+.starter {
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 180px;
+}
+h2 {
+    color: white;
+    font-size: 24px;
+    padding: 30px 30px;
+    margin-left: 100px;
+}
+.top-second-quarter {
+    background-color: hsl(227deg 33% 44%);
+}
+.bottom-first-quarter {
+    background-color: hsl(227deg 34% 41%);
+}
+.bottom-second-quarter {
+    background-color: hsl(227deg 36% 38%);
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 110px;
+}
+.generic {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top:50px;
+}
+.learn {
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.footer {
+    background-color: hsl(231deg 17% 22%);
+}
+.copyright {
+    margin-left: 60px;
+    padding: 40px;
+    color: hsl(228deg 5% 61%);
+}
